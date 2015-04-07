@@ -1,0 +1,19 @@
+{
+  "name": "mustached-octo-cyril",
+  "version": "1.0.0",
+  "description": "### This is a rewrite of underscore.js. ### I was bored, so i decided to do this.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssing128/mustached-octo-cyril.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssing128/mustached-octo-cyril/issues"
+  },
+  "homepage": "https://github.com/ssing128/mustached-octo-cyril"
+}
