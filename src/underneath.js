@@ -3,7 +3,7 @@ var _= { };
 exports._ = _;
 (function() {
 
-  _.each = function(collection,iteratee){
+  _.each = function(collection,iterator){
 
     if(Array.isArray(collection)){
       for(var i = 0; i < collection.length; i++){
@@ -31,6 +31,13 @@ exports._ = _;
 
     return filtered;
   };
+
+  _.reject = function(collection, iterator) {
+    return _.filter(collection, function(value){
+      return !iterator(value);
+    });
+  }
+
 
 
 }).call(this);
